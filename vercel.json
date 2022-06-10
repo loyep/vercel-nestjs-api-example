@@ -1,6 +1,3 @@
 {
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/api/main" },
-    { "source": "/swagger-ui/(.*)", "destination": "/api/main" }
-  ]
+  "rewrites": [{ "source": "/(.*)", "destination": "/api/main" }]
 }
