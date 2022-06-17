@@ -1,7 +1,7 @@
 import { NestFactory } from '@nestjs/core';
 import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
 import { RedocModule, RedocOptions } from 'nestjs-redoc';
-import { AppModule } from 'src/app.module';
+import { AppModule } from './app.module';
 
 export async function bootstrap() {
   const app = await NestFactory.create(AppModule);
